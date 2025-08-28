@@ -1,0 +1,17 @@
+:root{
+  --bg:#F7F8FA;
+  --text:#1E293B;
+  --muted:#64748B;
+  --primary:#6a5acd; /* violet */
+  --accent:#fbbf77;  /* peach/orange */
+  --coral:#F87171;   /* coral (loss) */
+  --surface:#FFFFFF;
+  --border:#E5E7EB;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:Inter, Roboto, Helvetica, Arial, sans-serif;}
+.container{max-width:1440px;margin:0 auto;}
+.card{background:var(--surface);border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+svg text{font-family:Inter, Roboto, Helvetica, Arial, sans-serif;}
+::-webkit-scrollbar{width:8px;height:8px;}
+::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:6px;}
